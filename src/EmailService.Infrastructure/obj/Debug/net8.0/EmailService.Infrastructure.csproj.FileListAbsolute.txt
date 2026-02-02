@@ -1,0 +1,17 @@
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\bin\Debug\net8.0\EmailService.Infrastructure.deps.json
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\bin\Debug\net8.0\EmailService.Infrastructure.dll
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\bin\Debug\net8.0\EmailService.Infrastructure.pdb
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\bin\Debug\net8.0\EmailService.Core.dll
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\bin\Debug\net8.0\EmailService.Models.dll
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\bin\Debug\net8.0\EmailService.Core.pdb
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\bin\Debug\net8.0\EmailService.Models.pdb
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\obj\Debug\net8.0\EmailService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\obj\Debug\net8.0\EmailService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\obj\Debug\net8.0\EmailService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\obj\Debug\net8.0\EmailService.Infrastructure.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\obj\Debug\net8.0\EmailService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\obj\Debug\net8.0\EmailSer.34032E8A.Up2Date
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\obj\Debug\net8.0\EmailService.Infrastructure.dll
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\obj\Debug\net8.0\refint\EmailService.Infrastructure.dll
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\obj\Debug\net8.0\EmailService.Infrastructure.pdb
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\obj\Debug\net8.0\ref\EmailService.Infrastructure.dll

@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "EmailService.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EmailService.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EmailService.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmailService.Core.dll": {}
+        }
+      },
+      "EmailService.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/EmailService.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmailService.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmailService.Core/1.0.0": {
+      "type": "project",
+      "path": "../EmailService.Core/EmailService.Core.csproj",
+      "msbuildProject": "../EmailService.Core/EmailService.Core.csproj"
+    },
+    "EmailService.Models/1.0.0": {
+      "type": "project",
+      "path": "../EmailService.Models/EmailService.Models.csproj",
+      "msbuildProject": "../EmailService.Models/EmailService.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "EmailService.Core >= 1.0.0",
+      "EmailService.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.Infrastructure\\EmailService.Infrastructure.csproj",
+      "projectName": "EmailService.Infrastructure",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.Infrastructure\\EmailService.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.Core\\EmailService.Core.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.Core\\EmailService.Core.csproj"
+            },
+            "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.Models\\EmailService.Models.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.Models\\EmailService.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

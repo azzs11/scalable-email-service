@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Microsoft.AspNetCore.OpenApi >= 8.0.23",
+      "Swashbuckle.AspNetCore >= 6.6.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.API\\EmailService.API.csproj",
+      "projectName": "EmailService.API",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.API\\EmailService.API.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.API\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.Core\\EmailService.Core.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.Core\\EmailService.Core.csproj"
+            },
+            "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.Infrastructure\\EmailService.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.Infrastructure\\EmailService.Infrastructure.csproj"
+            },
+            "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.Models\\EmailService.Models.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\Projects\\scalable-email-service\\src\\EmailService.Models\\EmailService.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": {
+            "target": "Package",
+            "version": "[8.0.23, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.6.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.AspNetCore.OpenApi"
+    }
+  ]
+}

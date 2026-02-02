@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6307BF5A-B92D-4888-A320-F1BECEB3DE11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService.Core", "src\EmailService.Core\EmailService.Core.csproj", "{37CA266D-1802-4180-AE49-E566852825DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService.Infrastructure", "src\EmailService.Infrastructure\EmailService.Infrastructure.csproj", "{ED8E15B0-A9C7-4DB9-9EC1-FC77D313FDAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService.Models", "src\EmailService.Models\EmailService.Models.csproj", "{FBF8D4E4-6231-4256-9063-BB68E5DC95CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37CA266D-1802-4180-AE49-E566852825DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CA266D-1802-4180-AE49-E566852825DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CA266D-1802-4180-AE49-E566852825DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CA266D-1802-4180-AE49-E566852825DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED8E15B0-A9C7-4DB9-9EC1-FC77D313FDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8E15B0-A9C7-4DB9-9EC1-FC77D313FDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8E15B0-A9C7-4DB9-9EC1-FC77D313FDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8E15B0-A9C7-4DB9-9EC1-FC77D313FDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF8D4E4-6231-4256-9063-BB68E5DC95CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF8D4E4-6231-4256-9063-BB68E5DC95CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF8D4E4-6231-4256-9063-BB68E5DC95CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF8D4E4-6231-4256-9063-BB68E5DC95CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37CA266D-1802-4180-AE49-E566852825DE} = {6307BF5A-B92D-4888-A320-F1BECEB3DE11}
+		{ED8E15B0-A9C7-4DB9-9EC1-FC77D313FDAB} = {6307BF5A-B92D-4888-A320-F1BECEB3DE11}
+		{FBF8D4E4-6231-4256-9063-BB68E5DC95CF} = {6307BF5A-B92D-4888-A320-F1BECEB3DE11}
+	EndGlobalSection
+EndGlobal

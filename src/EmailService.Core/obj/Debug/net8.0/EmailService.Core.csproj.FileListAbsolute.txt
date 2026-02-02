@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\bin\Debug\net8.0\EmailService.Core.deps.json
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\bin\Debug\net8.0\EmailService.Core.dll
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\bin\Debug\net8.0\EmailService.Core.pdb
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\bin\Debug\net8.0\EmailService.Models.dll
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\bin\Debug\net8.0\EmailService.Models.pdb
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\obj\Debug\net8.0\EmailSer.B4F13240.Up2Date
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.dll
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\obj\Debug\net8.0\refint\EmailService.Core.dll
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.pdb
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Core\obj\Debug\net8.0\ref\EmailService.Core.dll
