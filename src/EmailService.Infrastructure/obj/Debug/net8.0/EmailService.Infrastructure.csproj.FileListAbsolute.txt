@@ -15,3 +15,4 @@ C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastru
 C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\obj\Debug\net8.0\refint\EmailService.Infrastructure.dll
 C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\obj\Debug\net8.0\EmailService.Infrastructure.pdb
 C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\obj\Debug\net8.0\ref\EmailService.Infrastructure.dll
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Infrastructure\obj\Debug\net8.0\EmailService.Infrastructure.sourcelink.json

@@ -9,3 +9,4 @@ C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Models\ob
 C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Models\obj\Debug\net8.0\refint\EmailService.Models.dll
 C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Models\obj\Debug\net8.0\EmailService.Models.pdb
 C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Models\obj\Debug\net8.0\ref\EmailService.Models.dll
+C:\Users\DELL\Desktop\Projects\scalable-email-service\src\EmailService.Models\obj\Debug\net8.0\EmailService.Models.sourcelink.json
