@@ -1,44 +1,53 @@
+using EmailService.Core;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+// Add services
+builder.Services.AddControllers();
+builder.Services.AddSingleton<IEmailService, EmailService.Core.EmailService>();
+builder.Services.AddSingleton<IUserService, UserService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+// Simple middleware for API key authentication
+app.Use(async (context, next) =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    // Skip auth for health check
+    if (context.Request.Path == "/health")
+    {
+        await next();
+        return;
+    }
 
-app.UseHttpsRedirection();
+    var apiKey = context.Request.Headers["X-API-Key"].FirstOrDefault();
+    
+    if (string.IsNullOrEmpty(apiKey))
+    {
+        context.Response.StatusCode = 401;
+        await context.Response.WriteAsJsonAsync(new { error = "API Key is required in X-API-Key header" });
+        return;
+    }
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+    var userService = context.RequestServices.GetRequiredService<IUserService>();
+    var isValid = await userService.ValidateApiKeyAsync(apiKey);
 
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
+    if (!isValid)
+    {
+        context.Response.StatusCode = 401;
+        await context.Response.WriteAsJsonAsync(new { error = "Invalid API Key" });
+        return;
+    }
+
+    await next();
+});
+
+app.MapControllers();
+
+// Health check endpoint
+app.MapGet("/health", () => Results.Ok(new 
+{ 
+    status = "healthy", 
+    timestamp = DateTime.UtcNow 
+}));
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
